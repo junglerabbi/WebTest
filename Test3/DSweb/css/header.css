@@ -1,0 +1,104 @@
+a{
+	color:#656565;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.topBar{
+	height:31px;
+	line-height: 31px;
+	background-color: rgba(240,240,240,0.9);
+}
+.center{
+	margin-left: 300px;
+	margin-right: 300px;
+	position: relative;
+}
+.left{
+	float:left;
+	position:absolute;
+}
+.right{
+	float:right;
+}
+.midBar{
+	height: 130px;
+	background-color: rgba(29,122,217,0.7);
+}
+.logo{
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.search{
+	margin:40px 0 40px 0;
+}
+.searchText{
+	height:50px;
+	width:80%; 
+	font-size: 20px;
+	border-radius: 5px;
+}
+.searchBtn{
+	height:50px;
+	width:10%;
+	margin-bottom: 5px;
+}
+.shopcar{
+	line-height: 45px;
+	margin:40px 0 40px 0;
+	font-size: 15px;
+}
+
+.footBar{
+	height:60px;
+	line-height: 60px;
+	background-color: #1369C0;
+	position: relative;
+}
+.shopClass{
+	position: absolute;
+	width:200px;
+	line-height: 60px;
+}
+.allShop{
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+	font-weight: 600;
+}
+.caret{
+	margin-left: 20px;
+}
+.shopNav{
+	position: absolute;
+	width:800px;
+	margin-left: 180px;
+
+}
+.ulNav{
+	list-style: none;
+}
+.ulNav li{
+	float:left;
+	margin-right: 20px;
+	
+}
+.ulNav li a{
+	text-align: center;
+	display: block;
+	height:60px;
+	width:80px;
+	color:#fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+.ulNav a:hover{
+  background-color: #4593FD;
+  text-decoration: none;
+  border-radius: 10px;
+}

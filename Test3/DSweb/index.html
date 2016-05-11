@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+</head>
+<body>
+	<header>
+		<div class="topBar">
+			<div class="center">
+				<div class="left">
+					<img src="img/icon/shoucang.jpg" class="shoucang" height="14" width="15">
+					<a href="#">收藏本网站</a>
+				</div>
+				<div class="right">
+					<span>欢迎来到XX网!</span>
+					<span><a href="#">[登录]</a></span>
+					<span><a href="#">[免费注册]</a></span>
+				</div>
+			</div>
+		</div>
+		<div class="midBar">
+			<div class="center container">
+				<div class="row">
+					<div class="col-md-2">
+						<img src="img/icon/logo.png" class="img-circle logo" height="75" width="75">
+					</div>
+					<div class="col-md-6 search">
+						<input type="text" class="searchText" placeholder="请输入要查询的内容">
+						<button class="btn-info btn searchBtn">搜索</button>
+					</div>
+					<div class="col-md-4">
+						<div class="shopcar">
+							<img src="img/icon/shopcar.png" class="img-rounded " height="46" width="50">
+							<a href="#" class="btn btn-warning ">我的购物车</a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="footBar clearfix">
+			<div class="center">
+				<div class="shopClass">
+					<p class="allShop">全部商品分类<span class="caret"></span></p>
+				</div>
+				<div class="shopNav">
+					<ul class="ulNav">
+						<li><a href="#">小学教材</a></li>
+						<li><a href="#">初中教材</a></li>
+						<li><a href="#">高中教材</a></li>
+						<li><a href="#">大学教材</a></li>
+						<li><a href="#">专业书籍</a></li>
+						<li><a href="#">课外读物</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<content>
+		<div class="shopShow">
+			<div id="shopMath">
+				<div class="shopDetail" id="math">
+				<dl class="shopDetail_item" >
+					<dt><a href="#">数学</a><span class="badge hot pull-right"> HOT</span><img class="jiantou" src="img/icon/jiantou.jpg" height="8" width="5"></dt>
+					<dd><a href="#">高等数学</a><a href="#">线性代数</a><a href="#">离散数学</a></dd>
+				</dl>
+			</div>
+			<div class="showDetail" id="showMath">
+
+			</div>
+			</div>
+			
+			<div class="shopDetail">
+				<dl class="shopDetail_item" id="english">
+					<dt><a href="#">英语</a> <span class="badge hot pull-right"> HOT</span><img class="jiantou" src="img/icon/jiantou.jpg" height="8" width="5"></dt>
+					<dd><a href="#">托福英语</a><a href="#">雅思英语</a><a href="#">四六级</a></dd>
+				</dl>
+			</div>
+			<div class="shopDetail">
+				<dl class="shopDetail_item" id="novel">
+					<dt><a href="#">文学</a><a href="#">小说</a><img class="jiantou" src="img/icon/jiantou.jpg" height="8" width="5"></dt>
+					<dd><a href="#">武侠</a><a href="#">玄幻</a><a href="#">言情</a><a href="#">恐怖悬疑</a></dd>
+				</dl>
+			</div>
+			<div class="shopDetail">
+				<dl class="shopDetail_item" id="tech">
+					<dt><a href="#">专业知识</a><img class="jiantou" src="img/icon/jiantou.jpg" height="8" width="5"></dt>
+					<dd><a href="#">计算机</a><a href="#">软件工程</a><a href="#">物联网</a></dd>
+				</dl>
+			</div>
+			<div class="shopDetail">
+				<dl class="shopDetail_item" id="other">
+					<dt><a href="#">其他书籍</a><img class="jiantou" src="img/icon/jiantou.jpg" height="8" width="5"></dt>
+					<dd><a href="#">各种其他</a></dd>
+				</dl>
+			</div>
+		</div>
+		
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>   
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/lunbo/ad1.jpg" height="380" width="580" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="img/lunbo/ad2.jpg" height="380" width="580" alt="Second slide">
+					<div class="carousel-caption">
+						<h1>啥也不会</h1>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/lunbo/ad3.jpg" height="400" width="600"  alt="Third slide">
+				</div>
+				<div class="item">
+					<img src="img/lunbo/ad4.jpg" height="400" width="600"  alt="Four slide">
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>  
+	</content>
+	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate-1.13.1.js"></script>
+	<script type="text/javascript">
+	$("#shopMath").hover(function() {
+		/* Stuff to do when the mouse enters the element */
+		 $(".showDetail").css("display","block");
+	}, function() {
+		/* Stuff to do when the mouse leaves the element */
+		$(".showDetail").css("display","none");
+	});
+	</script>
+</body>
+</html>
