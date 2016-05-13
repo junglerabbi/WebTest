@@ -43,13 +43,25 @@
 .showDetail{
 	position: absolute;
 	margin-top: -80px;
-	margin-left: 200px;
+	margin-left: 199px;
 	height:400px;
 	width:600px;
-	border:5px solid red;
-	z-index: 999;
+	border:5px solid #5AA1FE;
 	background-color: #fff;
+	z-index: 999;
 	display: none;
+}
+#showEng{
+	margin-top: -160px;
+}
+#showNov{
+	margin-top: -240px;
+}
+#showTech{
+	margin-top: -320px;
+}
+#showOther{
+	margin-top: -400px;
 }
 .carousel{
 	width:600px;
@@ -70,4 +82,105 @@
 .carousel-caption h1{
 	font-size: 35px;
 	font-family:"SimHei",Georgia,Serif;
+}
+.detaile_left{
+	position: absolute;
+	height:390px;
+	width:390px;
+	padding:30px 20px 30px 20px;
+	
+}
+.hr{
+	display: block;
+	margin-top: -1px;
+}
+.detaile_left dt a{
+	font-size: 20px;
+	margin-left: 10px;
+	color:#000;
+}
+.detaile_left dt a:hover{
+	text-decoration: none;
+	color:orange;
+}
+.detaile_left dd a{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 15px;
+	color:#000;
+}
+.detaile_left dd a:hover{
+	text-decoration: none;
+	color:orange;
+	
+}
+.detaile_right{
+	position: absolute;
+	margin-left: 395px;
+	height:390px;
+	width:200px;
+	padding:30px 10px 50px 10px;
+}
+.detaile_right_img{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: -20px;
+}
+
+.introduce-ad{
+	position: absolute;
+	width:200px;
+	height:400px;
+	border:10px solid #ccc;
+	border-left: 0px;
+	margin-left: 1100px;
+	margin-top: -400px;
+}
+
+.recommend{
+	margin-top: 10px;
+	width:1000px;
+	padding:10px 30px 50px 30px;
+	margin-left: 300px;
+	border:1px solid green;
+}
+.recommend_left{
+	float:left;
+	margin-right: 220px;
+	border:2px solid red;
+}
+.recommend_right{
+	float:right;
+	margin-top: -725px;
+	width:200px;
+	border:1px solid black;
+	height:720px;
+}
+.recommend_book{
+	display:inline-block;
+	margin-top: 10px;
+	width:150px;
+	margin-right: 20px;
+	
+}
+.recommend_book_img{
+	padding:10px;
+	margin:10px;
+	border:2px dotted #ccc;
+}
+.recommend_book_name{
+	display:block;
+	text-align: center;
+	padding:10px;
+	color:blue;
+}
+.recommend_book_writer{
+	display:block;
+	text-align: center;
+	padding:10px;
+	color:blue;
+}
+.recommend_book_price{
+	color:red;
+	text-align: center;
 }

@@ -1,6 +1,9 @@
 a{
 	color:#656565;
 }
+body{
+	min-width: 1200px;
+}
 
 .clearfix:after {
     clear: both;
@@ -13,6 +16,7 @@ a{
 	height:31px;
 	line-height: 31px;
 	background-color: rgba(240,240,240,0.9);
+	width:100%;
 }
 .center{
 	margin-left: 300px;
