@@ -142,19 +142,21 @@
 	width:1000px;
 	padding:10px 30px 50px 30px;
 	margin-left: 300px;
-	border:1px solid green;
+	min-height: 800px;
+	margin-bottom: 50px;
 }
 .recommend_left{
 	float:left;
 	margin-right: 220px;
-	border:2px solid red;
 }
 .recommend_right{
-	float:right;
-	margin-top: -725px;
-	width:200px;
-	border:1px solid black;
-	height:720px;
+	position: absolute;
+	margin-left: 750px;
+	margin-top: 50px;
+	width:220px;
+	border:1px solid #8ABCF6;
+	border-radius: 5px;
+	min-height: 500px;
 }
 .recommend_book{
 	display:inline-block;
@@ -183,4 +185,22 @@
 .recommend_book_price{
 	color:red;
 	text-align: center;
+}
+.recommend_right_head{
+	height:50px;
+	background-color: rgba(0,255,185,0.1);
+}
+.recommend_right_head h3{
+	margin:0;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.recommend_right_ul{
+	list-style: none;
+}
+.recommend_right_ul li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 15px;
 }

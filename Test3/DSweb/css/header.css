@@ -3,6 +3,7 @@ a{
 }
 body{
 	min-width: 1200px;
+	background-color: rgba(172,254,240,0);
 }
 
 .clearfix:after {
@@ -105,4 +106,46 @@ body{
   background-color: #4593FD;
   text-decoration: none;
   border-radius: 10px;
+}
+.login{
+	position: relative;
+	height:400px;
+	width:600px;
+	margin-top: 30%;
+
+}
+
+.close{
+	margin-right: 5px;
+	margin-top: -25px;
+}
+.modal-title{
+	margin-top: 25px;
+	margin-left: 25px;
+	font-size: 25px;
+}
+.login_body{
+  margin-left: 25px;
+}
+.login_input label{
+	margin-top: 5px;
+}
+.login_input a{
+	display:block;
+	margin-left: 400px;
+}
+.login_input a:hover{
+	text-decoration: none;
+}
+.login_input input{
+	width:245px;
+}
+.login_foot{
+	margin-top: 20px;
+}
+.register{
+	position: relative;
+	height:500px;
+	width:600px;
+	margin-top: 20%;
 }
