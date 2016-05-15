@@ -20,6 +20,7 @@ body{
 	width:100%;
 }
 .center{
+	min-width: 1000px;
 	margin-left: 15%;
 	margin-right: 15%;
 	position: relative;
@@ -35,9 +36,20 @@ body{
 	height: 130px;
 	background-color: rgba(29,122,217,0.7);
 }
+.middle{
+	min-width: 1000px;
+}
 .logo{
-	margin-top: 25px;
 	margin-left: 50px;
+}
+.midBar_logo{
+	display:inline-block;
+	margin-right: 50px;
+	min-width: 150px;
+}
+.midBar_serch{
+	display:inline-block;
+	min-width: 600px;
 }
 .search{
 	margin:40px 0 40px 0;
@@ -52,6 +64,10 @@ body{
 	height:50px;
 	width:10%;
 	margin-bottom: 5px;
+}
+.midBar_shopcar{
+	display:inline-block;
+	min-width: 150px;
 }
 .shopcar{
 	line-height: 45px;
