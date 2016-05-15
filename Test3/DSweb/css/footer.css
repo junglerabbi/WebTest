@@ -1,7 +1,10 @@
+.footer{
+	width:100%;
+	padding-left: 15%;
+}
 .footer_info{
 	border-top: 2px solid #ccc;
 	height:200px;
-	margin:0px 300px 0px 300px;
 	position: relative;
 	width:1010px;
 }
@@ -28,24 +31,25 @@
 	border:none;
 }
 .info2{
-	margin-left: 300px;
-	margin-right: 300px;
-	min-width: 1000px;
-	background-color: rgba(228,248,253,0.5);
+	width:100%;
+	text-align: center;
 }
 .info2 ul{
 	list-style: none;
 }
 .info2 ul li{
 	float:left;
-	width:180px;
+	margin-left: 2%;
+	width:150px;
 	text-align: center;
 }
 .info2 ul li a{
 	color:#3C3939;
 }
 .bottom{
-	margin:10px 300px 30px 300px;
+	width:1010px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	text-align: center;
 	color:gray;
 }

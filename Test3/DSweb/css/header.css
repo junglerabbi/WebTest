@@ -3,7 +3,7 @@ a{
 }
 body{
 	min-width: 1200px;
-	background-color: rgba(172,254,240,0);
+	background-color: rgba(244,244,238,0.5);
 }
 
 .clearfix:after {
@@ -20,8 +20,8 @@ body{
 	width:100%;
 }
 .center{
-	margin-left: 300px;
-	margin-right: 300px;
+	margin-left: 15%;
+	margin-right: 15%;
 	position: relative;
 }
 .left{
